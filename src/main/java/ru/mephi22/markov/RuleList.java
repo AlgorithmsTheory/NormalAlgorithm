@@ -11,11 +11,11 @@ public class RuleList implements RuleStore {
 
     RuleList(List<Rule> rules) {
         this.rules = rules;
-        iter = rules.listIterator();
+        reset();
     }
 
     @Override
-    public Rule nextElem() {
+    public Rule next() {
         return iter.next();
     }
 

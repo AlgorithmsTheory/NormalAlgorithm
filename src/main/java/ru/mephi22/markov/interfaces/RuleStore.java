@@ -4,7 +4,7 @@ import ru.mephi22.markov.Rule;
 
 public interface RuleStore {
 
-    Rule nextElem();
+    Rule next();
 
     void reset();
 
