@@ -1,0 +1,9 @@
+{
+  "rule": [
+    {
+      "src":"a",
+      "dst":"b"
+    }
+  ],
+  "str": "aabbbaaabb"
+}
